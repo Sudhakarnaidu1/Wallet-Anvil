@@ -483,6 +483,7 @@ def get_notifications(user_phone):
 
 
 
+
 @anvil.server.callable
 def update_user_status(item_id):
     row = app_tables.wallet_users_service.get_by_id(item_id)
